@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Zaphy Noona 🌸</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="snow-container"></div>
+
+<audio id="bgMusic" loop>
+    <source src="assets/birthday-music.mp3" type="audio/mp3">
+</audio>
+
+
+<!-- Opening Screen -->
+<section id="opening">
+
+    <div class="intro-card">
+
+        <h1>❄️ A Special Gift ❄️</h1>
+
+        <h2>
+            For Zaphy Noona 🌸
+        </h2>
+
+        <p>
+            Someone prepared something special just for you...
+        </p>
+
+        <button onclick="openGift()">
+            Open Gift 🎁
+        </button>
+
+    </div>
+
+</section>
+
+
+
+<!-- Main Birthday Page -->
+
+<section id="birthday" class="hidden">
+
+
+    <div class="container">
+
+
+        <img 
+        src="assets/ayaka-chibi.png"
+        class="ayaka"
+        alt="Chibi Ayaka">
+
+
+        <h1>
+            Happy Birthday
+        </h1>
+
+
+        <h2>
+            Zaphy Noona 🌸
+        </h2>
+
+
+        <p class="date">
+            19 July 2026
+        </p>
+
+
+
+        <div class="letter">
+
+
+            <p>
+            Dear Zaphy Noona,
+            </p>
+
+
+            <p>
+            Today is a special day because it celebrates someone truly special.
+            </p>
+
+
+            <p>
+            I hope your days are always filled with happiness,
+            warmth, and countless beautiful moments.
+            </p>
+
+
+            <p>
+            Like snowflakes falling from the sky,
+            every person is unique.
+            Your kindness makes the world a little brighter.
+            </p>
+
+
+            <p>
+            May your dreams bloom beautifully like sakura flowers,
+            and may every journey ahead bring you joy and wonderful memories.
+            </p>
+
+
+            <p>
+            Thank you for being someone amazing.
+            </p>
+
+
+            <h3>
+            Happy Birthday, Zaphy Noona 💙❄️
+            </h3>
+
+
+        </div>
+
+
+
+        <button onclick="makeWish()" class="wish-btn">
+            🌸 Make A Wish 🌸
+        </button>
+
+
+
+        <p id="wishMessage"></p>
+
+
+
+    </div>
+
+
+</section>
+
+
+
+<button id="musicBtn" onclick="toggleMusic()">
+🎵
+</button>
+
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
